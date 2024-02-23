@@ -1,0 +1,6 @@
+<hr />
+<h4 style="color: red">This is a server</h4>
+<h2> Today's greetings: {{ title }} </h2>
+<button [innerHTML]="title" (click)="showGreetings($event)" ></button>
+<input type="text" [(ngModel)]="title" (keypress)="textboxKeyPress($event)" />
+<hr />

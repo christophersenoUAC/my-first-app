@@ -94,6 +94,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/dist/css/boostrap.css",
               "src/styles.css"
             ],
             "scripts": []
